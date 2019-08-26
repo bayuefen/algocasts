@@ -7,7 +7,7 @@ import inspect
 from unittest import TestCase
 from abc import abstractmethod
 
-from algocasts.utils.data_structure import ListNode
+from utils.data_structure import ListNode
 
 
 class BaseTest(TestCase):

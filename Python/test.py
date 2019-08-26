@@ -1,7 +1,7 @@
 # coding=utf-8
+# add algocasts path into python path with abspath
 
 import os
-# add algocasts path into python path with abspath
 import inspect
 import unittest
 import optparse
@@ -13,7 +13,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 log = logging.getLogger('algocasts_test')
 problems_test = {}
-
 
 def get_problem_tests(path):
     for f in os.listdir(path):
